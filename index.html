@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <meta name="description" content="Full-stack developer specializing in performance and accessibility">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+
+
+
+    
+    <!-- <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div> -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-icon">&lt;/&gt;</span> Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tech">Tech Stack</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <button class="myBtn ms-4" id="themeToggle"  >
+                    <i class="fa-regular fa-moon" id="themeIcon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Interactive Background -->
+    <div class="animated-bg">
+        <div class="grid-pattern"></div>
+        <div class="gradient-orb gradient-orb-1"></div>
+        <div class="gradient-orb gradient-orb-2"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container-lg h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-8">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Muhammad Faizan<br><span class="gradient-text">Front-End Developer</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Front-End developer focused on <span class="highlight-text">Performance</span> and <span class="highlight-text">Accessibility</span>. Crafting seamless digital products with modern technologies.
+                        </p>
+                        <div class="hero-cta">
+                            <a href="#projects" class="btn btn-primary btn-lg">
+                                View My Work
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                            <a href="#contact" class="btn btn-outline-secondary btn-lg ms-lg-3">
+                                Get In Touch
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-value">20+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">100%</span>
+                                <span class="stat-label">Responsiveness</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">1+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech" class="tech-section">
+        <div class="container-lg">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Modern, responsive, and scalable web solutions.</p>
+            
+            <div class="tech-grid ">
+                <div class="tech-card" data-tech="react">
+                    <div class="tech-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Development of responsive and interactive websites for individuals, businesses, or organizations using HTML5, CSS3, JavaScript, and Bootstrap. Ensures mobile-friendly and optimized performance across all devices.</p>
+                </div>
+
+                <div class="tech-card " data-tech="typescript">
+                    <div class="tech-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>Front-End Development</h3>
+                    <p>Specialized in building intuitive user interfaces (UIs) and seamless user experiences (UX) with HTML5, CSS3, JavaScript, and React.js. Delivers fast, responsive single-page applications (SPAs).</p>
+                </div>
+
+                <div class="tech-card" data-tech="nextjs">
+                    <div class="tech-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Responsive Design Audits</h3>
+                    <p>Evaluation of existing websites for responsiveness across devices and browsers. Implementation of improvements using CSS3 media queries and modern design principles.</p>
+                </div>
+
+                <div class="tech-card" data-tech="nodejs">
+                    <div class="tech-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Maintenance and Updates</h3>
+                    <p>Ongoing maintenance services, including security patches, performance optimizations, and feature updates. Provides backups and uptime monitoring.</p>
+                </div>
+
+                <div class="tech-card" data-tech="tailwind">
+                    <div class="tech-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Web Hosting and Deployment</h3>
+                    <p>Assistance in deploying websites and web applications on platforms like Firebase Hosting, Netlify, or traditional servers. Optimizes performance and ensures secure HTTPS connections.</p>
+                </div>
+
+                <div class="tech-card" data-tech="postgres">
+                    <div class="tech-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Creation of custom e-commerce platforms with the MERN stack, including secure payments, shopping carts, and order management systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container-lg">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Showcase of my best work</p>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                     <img src="" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with real-time inventory management, payment processing, and advanced search functionality.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);"></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link demo-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data visualization platform with interactive charts, custom reports, and WebSocket-powered live updates.</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">WebSocket</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);"></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link demo-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Content Management System</h3>
+                        <p>Headless CMS with rich text editing, media management, version control, and multi-language support.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">GraphQL</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image" style="background: linear-gradient(135deg, #ec4899 0%, #be185d 100%);"></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link demo-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Collaborative task management tool with real-time collaboration, Kanban boards, and AI-powered task suggestions.</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Redux</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container-lg">
+            <h2 class="section-title">Professional Journey</h2>
+            <p class="section-subtitle">My career timeline</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Frontend Engineer</h3>
+                        <p class="timeline-company">TechVision Inc. • 2022 - Present</p>
+                        <p class="timeline-description">
+                            Leading frontend architecture for a SaaS platform serving 100k+ users. Implemented performance optimizations reducing load times by 60%, mentored junior developers, and established modern development practices.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Performance</span>
+                            <span>Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer</h3>
+                        <p class="timeline-company">Digital Solutions Co. • 2020 - 2022</p>
+                        <p class="timeline-description">
+                            Built end-to-end applications using React and Node.js. Collaborated with design and backend teams to deliver features that improved user engagement by 45%.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span>Full Stack</span>
+                            <span>Agile</span>
+                            <span>PostgreSQL</span>
+                            <span>API Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Junior Frontend Developer</h3>
+                        <p class="timeline-company">Creative Web Agency • 2018 - 2020</p>
+                        <p class="timeline-description">
+                            Started my career building responsive websites and web applications. Learned best practices in accessibility, performance, and modern JavaScript frameworks.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                            <span>jQuery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container-lg">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-subtitle">Get in touch and let's create something amazing</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form class="contact-form" action="mailto:faizanfaizy634@gmail.com" id="contactForm" method="get">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                            Send Message
+                            <i class="fas fa-paper-plane ms-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="social-links mt-5">
+                <a href="https://github.com/iamfaizan-1" target="_blank" class="social-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-faizan-71b78a322/" target="_blank" class="social-link" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://wa.me/923322788597" target="_blank" class="social-link" title=" (whatsapp)">
+                   <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="mailto:faizanfaizy634@gmail.com" class="social-link" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-lg">
+            <p> 2026 Muhammad Faizan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
