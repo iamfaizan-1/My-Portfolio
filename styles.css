@@ -691,7 +691,7 @@ section {
 
 .timeline-item:hover .timeline-content {
     border-color: var(--color-emerald);
-    background: rgba(30, 41, 59, 0.6);
+
     box-shadow: 0 10px 30px rgba(16, 86, 185, 0.05);
 }
 
@@ -747,6 +747,12 @@ section {
 .contact-form {
     animation: slideInUp 0.6s ease-out;
 }
+
+.contact-main{
+    border-radius: 20px;
+    padding: 25px;
+}
+
 
 .form-control {
     background: rgba(30, 41, 59, 0.5);
@@ -920,7 +926,7 @@ section {
     --color-black: #ffffff;
     
     --bg-primary: #ffffff;
-    --bg-secondary: rgba(2, 132, 199, 0.05);
+    --bg-secondary: #e2e8f0;
     --bg-card: rgba(241, 245, 249, 0.8);
     --text-primary: #475569;
     --text-secondary: #64748b;
@@ -977,7 +983,7 @@ body {
 }
 
 [data-theme="light"] .tech-card {
-    background: var(--bg-card);
+    background: white;
     border: 1px solid var(--border-color);
 }
 
@@ -1037,8 +1043,13 @@ body {
 /* Update form */
 [data-theme="light"] .form-control {
     background: var(--bg-card);
-    border: 1px solid var(--border-color);
-    color: var(--text-primary);
+    /* background-color: white; */
+    /* border: 1px solid gray; */
+    color: lightgray;
+}
+
+[data-theme="light"] .contact-main {
+    background-color: white;
 }
 
 [data-theme="light"] .form-control:focus {
